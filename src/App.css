@@ -1,0 +1,46 @@
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  margin: 15px;
+}
+
+button {
+  background-color: black;
+  color: blueviolet
+}
+
+.centered-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.TopWords {
+  color: rgb(48, 92, 14);
+}
+
+.BottomWords {
+  color: rgb(133, 59, 84);
+}
+
+#BottomBox {
+  background-color: rgba(125, 18, 142, 0.274);
+  border: solid;
+  padding: 15px;
+  margin: 50px;
+  width: max-content;
+}
+table, th, td {
+  border: 1px solid black;
+}
